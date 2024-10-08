@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Expense Tracker</title>
+    <link
+      rel="stylesheet"
+      href="Decore.css"
+    />
+  </head>
+  <body class="light_mode">
+    <div class="head">
+      <h1>Expense Tracker WebApp</h1>
+    </div>
+
+    <div class="detail">
+      <form action="#">
+        <label for="category-input">CATEGORY</label>
+        <input
+          type="text"
+          id="category-input"
+          placeholder="Category"
+        />
+        <label for="Amount-input">AMOUNT</label>
+        <input
+          type="number"
+          id="Amount-input"
+          placeholder="Amount"
+        />
+        <label for="date-input">DATE</label>
+        <input
+          type="date"
+          id="date-input"
+        />
+        <button id="add_btn">ADD</button>
+        <button id="mode_btn">MODE</button>
+      </form>
+    </div>
+
+    <div class="Expences-list">
+      <h2><u>Expenses list</u></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Amount</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="Expenses-body"></tbody>
+        <tfoot>
+          <td><b>Total:</b></td>
+          <td id="total-amount"></td>
+          <td></td>
+        </tfoot>
+      </table>
+    </div>
+
+    <script src="Mode.js"></script>
+    <script src="Working.js"></script>
+  </body>
+</html>

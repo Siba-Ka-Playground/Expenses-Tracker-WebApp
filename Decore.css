@@ -1,0 +1,67 @@
+.dark_mode {
+  background-color: black;
+}
+.light_mode {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/036/725/621/non_2x/ai-generated-red-casino-background-with-copy-space-free-photo.jpg);
+}
+.head {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+}
+h1 {
+  margin-top: 10px;
+}
+
+.detail {
+  height: 50px;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+}
+.detail input[type="number"],
+.detail input[type="text"],
+.detail input[type="date"] {
+  font-size: 20px;
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.detail button {
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: red;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+button:active {
+  background-color: red;
+  transform: translateX(5px) translateY(5px);
+}
+.Expences-list {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(239, 86, 83, 0.402);
+}
+th,
+td {
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+}
+th {
+  background-color: snow;
+}
